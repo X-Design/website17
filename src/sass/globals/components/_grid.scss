@@ -1,0 +1,18 @@
+/* the rest of the CSS is coming from here https://codepen.io/kevinpowell/pen/BaYWRgx/070ef885a2f908f2de935d78d65bef06 */
+
+.grid-even-columns {
+  display: grid;
+  gap: 1rem;
+}
+
+@media (min-width: 40em) {
+  .grid-even-columns {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (min-width: 60em) {
+  .grid-even-columns {
+    grid-template-columns: repeat(5, 1fr);
+  }
+}
