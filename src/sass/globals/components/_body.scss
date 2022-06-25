@@ -10,7 +10,7 @@ body {
 .card {
   position: relative;
   width: 21.875rem;
-  height: 	190px;
+  height: 190px;
   background: white;
   border-radius: 20px;
   box-shadow: 0 35px 80px rgba(0, 0, 0, 0.15);
@@ -32,14 +32,14 @@ body {
     display: flex;
     justify-content: center;
     align-items: flex-end;
-		overflow: hidden;
+    overflow: hidden;
 
     & .details {
       padding: 40px;
       text-align: center;
       width: 100%;
       transition: 0.5s;
-			transform: translateY(150px);
+      transform: translateY(150px);
 
       & h2 {
         font-size: 1.25em;
@@ -53,53 +53,59 @@ body {
           opacity: 0.5;
         }
 
-			
+
       }
 
       & .data {
         display: flex;
         justify-content: space-around;
-				margin: 20px 0;
-				& h3{
-					font-size: 1em;
-					color: #555;
-					line-height: 1.2em;
-					font-weight: 600;
-					& span{
-						font-size: 0.85em;
-						font-weight: 400;
-						opacity: 0.5;
-					}
-				}
+        margin: 20px 0;
+
+        & h3 {
+          font-size: 1em;
+          color: #555;
+          line-height: 1.2em;
+          font-weight: 600;
+
+          & span {
+            font-size: 0.85em;
+            font-weight: 400;
+            opacity: 0.5;
+          }
+        }
 
       }
-			& .actionBtn{
-				display: flex;
-				justify-content: space-between;
-				gap: 20px;
-				& button{
-						padding: 10px 30px;
-						border: none;
-						outline: none;
-						border-radius: 5px;
-						font-size: 1em;
-						font-weight: 500;
-						background: #ff5f95;
-						color: #fff;
-						cursor: pointer;
-						&:nth-child(2){
-							border: 1px solid #999;
-							color: #999;
-							background: #fff;
-						}
-				}
-			}
+
+      & .actionBtn {
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+
+        & button {
+          padding: 10px 30px;
+          border: none;
+          outline: none;
+          border-radius: 5px;
+          font-size: 1em;
+          font-weight: 500;
+          background: #ff5f95;
+          color: #fff;
+          cursor: pointer;
+
+          &:nth-child(2) {
+            border: 1px solid #999;
+            color: #999;
+            background: #fff;
+          }
+        }
+      }
     }
 
   }
-	&:hover .content .details{
-		transform: translateY(0px);
-	}
+
+  &:hover .content .details {
+    transform: translateY(0px);
+  }
 }
 
 .imgBx {
