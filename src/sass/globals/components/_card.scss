@@ -1,0 +1,31 @@
+// font-family: 'DM Sans',
+// sans-serif;
+
+// font-family: 'Jost',
+// sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(/src/assets/images/desktop\ wallpaper.jpg);
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card2 {
+  max-width: 340px;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 0 0 0.8 rgba(255, 255, 255, 0.2);
+  overflow: hidden;
+}
